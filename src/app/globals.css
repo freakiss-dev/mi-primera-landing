@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-indigo-bolt: #4570ff;
+    --color-ember-orange: #ff6808;
+    --color-lime-highlighter: #c6ff94;
+    --color-lavender-mist: #ebdcff;
+    --color-ice-blue: #d6e0ff;
+    --color-lilac-bloom: #c293f1;
+    --color-deep-navy: #193f78;
+    --color-warm-bone: #f1f0ec;
+    --color-paper-white: #ffffff;
+    --color-ink-black: #000000;
+    --color-smoke: #6e6d6c;
+    --color-hairline: #e5e7eb;
+  }
+}
+
+.font-handwriting {
+  font-family: var(--font-handwriting), cursive;
+}
+
+body {
+  background-color: var(--color-paper-white);
+  color: var(--color-ink-black);
+  font-family: var(--font-inter), sans-serif;
+}
