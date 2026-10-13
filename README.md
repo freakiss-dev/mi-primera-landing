@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️‍♂️ Cafe Extremo – Landing Page ☕🚗
 
-## Getting Started
+Landing page moderna, optimizada y 100% responsiva desarrollada con **Next.js** y **TypeScript**. Diseñada para un ecosistema único que combina bienestar, productividad y servicios premium.
 
-First, run the development server:
+Despliegue en vivo: **[Ver sitio en vivo](https://github.io)** *(Reemplaza con tu enlace de GitHub Pages)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Características y Servicios
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+*   **⚡ Rendimiento Optimizado:** Construido sobre Next.js con exportación estática rápida y optimización de recursos.
+*   **🏋️‍♂️ Área de Gimnasio:** Presentación de planes de entrenamiento, membresías y zonas de alta intensidad.
+*   **☕ Cafetería de Especialidad:** Menú digital interactivo para la sección de barismo y snacks saludables.
+*   **📅 Agendamiento de Salas:** Módulo visual para la reserva de salas privadas de reuniones y coworking.
+*   **🚗 Car Wash Premium:** Catálogo de servicios de lavado automotriz mientras los clientes entrenan o trabajan.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tecnologías Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+*   **Next.js** – Framework React para la estructura y exportación estática (`output: 'export'`).
+*   **TypeScript** – Tipado estático para un código más robusto y seguro.
+*   **Tailwind CSS** *(o tu librería de estilos)* – Estilos responsivos y componentes visuales.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
