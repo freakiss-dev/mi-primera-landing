@@ -12,7 +12,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 grid grid-cols-2 opacity-35 pointer-events-none">
         <div className="relative h-full overflow-hidden">
           <img
-            src="/images/hero/gym.jpg"
+            src="/public/images/hero/gym.jpg"
             alt="Gimnasio de Alto Rendimiento"
             className="w-full h-full object-cover filter blur-[1px]"
           />
@@ -20,7 +20,7 @@ export default function HeroSection() {
         </div>
         <div className="relative h-full overflow-hidden">
           <img
-            src="/images/hero/cafe.jpg"
+            src="/public/images/hero/cafe.jpg"
             alt="Café de Especialidad"
             className="w-full h-full object-cover filter blur-[1px]"
           />

@@ -13,7 +13,7 @@ export default function TestimonialsSection() {
       role: 'Diseñadora UX & Triatleta',
       comment: 'Empiezo el día entrenando pesado en el gym, tomo mi latte de avena y me conecto a trabajar. ¡Es el lugar perfecto para mantener mi rutina!',
       highlight: 'Entrenar + Trabajar en un solo lugar',
-      image: '/images/testimonials/sofia.jpg',
+      image: '/public/images/testimonials/sofia.jpg',
       gradientBorder: 'from-[#ff6808] via-[#4570ff] to-[#c6ff94]',
       objectPosition: 'object-top',
     },
@@ -22,7 +22,7 @@ export default function TestimonialsSection() {
       role: 'Founder de Startup',
       comment: 'Las salas de reuniones son súper profesionales para recibir clientes, y el café de especialidad siempre impresiona al equipo.',
       highlight: 'Salas de reuniones 4K impecables',
-      image: '/images/testimonials/carlos.jpg',
+      image: '/public/images/testimonials/carlos.jpg',
       gradientBorder: 'from-[#4570ff] via-[#c6ff94] to-[#ff6808]',
       objectPosition: 'object-top',
     },
@@ -31,7 +31,7 @@ export default function TestimonialsSection() {
       role: 'Freelancer & Fitness Enthusiast',
       comment: 'El descuento del plan anual en el menú del café es increíble. Los smoothies proteicos post-workout son los mejores de la ciudad.',
       highlight: 'Smoothies proteicos top',
-      image: '/images/testimonials/valentina.jpg',
+      image: '/public/images/testimonials/valentina.jpg',
       gradientBorder: 'from-[#c6ff94] via-[#ff6808] to-[#4570ff]',
       objectPosition: 'object-[center_20%]', // Centrada y enfocada en su rostro
     },
@@ -145,9 +145,8 @@ export default function TestimonialsSection() {
                 key={idx}
                 type="button"
                 onClick={() => setMobileIndex(idx)}
-                className={`h-2.5 rounded-full transition-all duration-300 ${
-                  mobileIndex === idx ? 'bg-[#c6ff94] w-6' : 'bg-white/20 w-2.5'
-                }`}
+                className={`h-2.5 rounded-full transition-all duration-300 ${mobileIndex === idx ? 'bg-[#c6ff94] w-6' : 'bg-white/20 w-2.5'
+                  }`}
                 aria-label={`Ir al testimonio ${idx + 1}`}
               />
             ))}
